@@ -1,12 +1,12 @@
-.num1, .num3, .num5 {
+.odd {
     background-color: rgb(255, 198, 198);
-    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-.num3 {
+.adjust-font-size{
     font-size: 24px;
-
 }
+
 
 #num2 {
     color: #0000FF;
@@ -16,6 +16,5 @@
 
 #num4 {
     background-color: rgb(144, 238, 144);
-    font-size: 24px;
     font-weight: 700;
 }
