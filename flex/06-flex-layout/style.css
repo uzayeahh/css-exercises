@@ -2,9 +2,17 @@
 
 body {
   height: 100vh;
+  width: 100vw;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  /*my ans*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
 
 img {
@@ -16,6 +24,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /*my ans*/
+  padding: 8px;
 }
 
 input {
@@ -24,4 +35,42 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/*my ans*/
+a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer{
+  background-color: #eeeeee;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  
+}
+
+li{
+  padding: 10px;
+}
+
+.content{
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
